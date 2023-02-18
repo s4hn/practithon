@@ -7,7 +7,7 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/dogs/" element={<MainPage/>}></Route>
+          <Route path="/volunteers/" element={<MainPage/>}></Route>
         </Routes>
       </BrowserRouter>
     </div>
