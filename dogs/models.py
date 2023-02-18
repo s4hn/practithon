@@ -14,7 +14,7 @@ class Dog(models.Model):
         return f"{self.name} was brought in on {self.intake_date}"
 
 
-class AdoptionForm(models.Model):
+class Adoption(models.Model):
     adopter_name = models.CharField(max_length=200)
     application_status = models.CharField(max_length=200)
     address = models.CharField(max_length=200)
